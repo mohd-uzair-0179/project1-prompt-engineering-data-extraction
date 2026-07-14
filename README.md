@@ -1,5 +1,10 @@
 # 🚀 Zero-Shot & Few-Shot Data Extraction
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![OpenAI](https://img.shields.io/badge/OpenAI-API-green.svg)
+![Prompt Engineering](https://img.shields.io/badge/Prompt-Engineering-orange.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 > A Prompt Engineering project that transforms messy, unstructured text into clean, structured JSON using deterministic prompting, delimiters, and Few-Shot Learning.
 
 ---
