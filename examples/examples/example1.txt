@@ -1,0 +1,11 @@
+Ali
+
+Age 25
+
+Lahore
+
+Software Engineer
+
+Phone 03001234567
+
+Email ali@gmail.com
