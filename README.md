@@ -1,33 +1,39 @@
-# Zero-Shot & Few-Shot Data Extraction
+# 🚀 Zero-Shot & Few-Shot Data Extraction
 
-## Project Overview
-
-This project demonstrates how Large Language Models (LLMs) can extract structured information from messy, unstructured text using Prompt Engineering techniques.
-
-The solution applies delimiter-based prompts, few-shot learning, and deterministic output generation to convert natural language into structured JSON.
+> A Prompt Engineering project that transforms messy, unstructured text into clean, structured JSON using deterministic prompting, delimiters, and Few-Shot Learning.
 
 ---
 
-## Features
+## 📌 Project Overview
 
-- Zero-Shot Prompting
-- Few-Shot Prompting
-- Strict JSON Output
-- Delimiter-Based Prompting
-- Temperature = 0
-- Missing values handled as null
+This project demonstrates how Large Language Models (LLMs) can reliably extract structured information from unstructured natural language.
+
+Instead of relying on traditional parsing techniques, this project uses carefully engineered prompts to produce deterministic JSON outputs suitable for databases, APIs, and automation pipelines.
 
 ---
 
-## Technologies
+## ✨ Features
+
+- ✅ Zero-Shot Prompting
+- ✅ Few-Shot Prompting
+- ✅ Delimiter-Based Prompt Design
+- ✅ Deterministic Output (Temperature = 0)
+- ✅ Strict JSON Validation
+- ✅ Missing Value Handling
+- ✅ Production-Ready Prompt Structure
+
+---
+
+## 🛠 Technologies Used
 
 - Python 3
 - OpenAI API
 - Prompt Engineering
+- JSON
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 project1-prompt-engineering-data-extraction/
@@ -39,22 +45,37 @@ project1-prompt-engineering-data-extraction/
 ├── main.py
 ├── sample_input.txt
 ├── sample_output.json
+│
 ├── examples/
+│   ├── example1.txt
+│   ├── example2.txt
+│   ├── output1.json
+│   └── output2.json
+│
 ├── screenshots/
+│   └── README.md
+│
 └── docs/
+    └── README.md
 ```
 
 ---
 
-## Installation
+## ▶️ How to Run
 
-Install dependencies:
+Clone the repository
+
+```bash
+git clone https://github.com/mohd-uzair-0179/project1-prompt-engineering-data-extraction.git
+```
+
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run:
+Run the program
 
 ```bash
 python main.py
@@ -62,10 +83,10 @@ python main.py
 
 ---
 
-## Sample Input
+## 📄 Sample Input
 
 ```text
-Hi,
+Hello,
 
 My name is Muhammad Uzair.
 
@@ -84,30 +105,40 @@ Electrical Engineering Student.
 
 ---
 
-## Sample Output
+## 📄 Sample Output
 
 ```json
 {
-    "name":"Muhammad Uzair",
-    "age":19,
-    "email":"uzair0179@gmail.com",
-    "phone":"03121234567",
-    "city":"Wah Cantt",
-    "occupation":"Electrical Engineering Student"
+  "name": "Muhammad Uzair",
+  "age": 19,
+  "email": "uzair0179@gmail.com",
+  "phone": "03121234567",
+  "city": "Wah Cantt",
+  "occupation": "Electrical Engineering Student"
 }
 ```
 
 ---
 
-## Future Improvements
+## 📈 Future Improvements
 
-- CSV Export
 - Resume Parsing
-- Invoice Extraction
+- Invoice Information Extraction
+- CSV Export
 - PDF Processing
+- Batch Processing
+- REST API Integration
 
 ---
 
-## Author
+## 👨‍💻 Author
 
-Muhammad Uzair
+**Muhammad Uzair**
+
+Electrical Engineering Student | AI & Robotics Enthusiast
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
